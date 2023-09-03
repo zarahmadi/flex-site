@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.fn-s1 {
+  font-size: 1.25rem;
+}
+.fn-s2 {
+  font-size: 2rem;
+}
+.fn-s3 {
+  font-size: 2.5rem;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.list {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*---------start navbar----------*/
+
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 5rem;
+  /* padding-top: 1rem; */
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul li {
+  margin-bottom: 1rem;
+}
+
+.navbar a {
+  color: white;
+}
+
+.primary-color {
+  color: orange;
+}
+
+.navbar ul {
+  display: flex;
+  padding-top: 0.75rem;
+  flex-direction: row-reverse;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  margin: 0 1rem;
+  font-size: larger;
+}
+
+.navbar ul li a:hover {
+  background: orange;
+  border-radius: 8px;
+  padding: 7px;
+}
+
+/*---------end navbar----------*/
+
+/*---------start header----------*/
+
+#header {
+  background: #333
+    url(backgrond/sunlight-shining-single-mountain-top-sunset-with-dark-cloudy-sky_181624-377.jpg)
+    no-repeat center center/cover;
+  height: 100vh;
+  font-weight: bold;
+  color: white;
+}
+
+#header p {
+  font-size: larger;
+  margin: 3rem;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 3rem;
+  margin: 3rem;
+}
+
+.ifor-more {
+  color: white;
+  background-color: orange;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+}
+
+.ifor-more:hover {
+  color: orange;
+  background-color: white;
+}
+
+.culumn-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+  height: 100%;
+}
+
+/*---------end header----------*/
+
+/*---------start section1----------*/
+
+.section1 {
+  padding-bottom: 2rem;
+}
+
+/* .max-width {
+  max-width: 1100px;
+  padding: 2rem;
+} */
+
+.section-title {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.items {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.item {
+  text-align: center;
+}
+
+.item1 {
+  padding-left: 7rem;
+}
+
+.item2 {
+  padding-right: 7rem;
+}
+
+.item i {
+  background-color: orange;
+  padding: 1.25rem;
+  border-radius: 50%;
+}
+.item h2,
+p {
+  margin-top: 1.5rem;
+}
+/*---------end section1----------*/
+
+/*---------start section2----------*/
+
+.section2 {
+  display: flex;
+}
+
+.section-div2 {
+  padding: 2rem 4rem 0 3rem;
+}
+
+.img-item {
+  background: url(img/trees.jpg) no-repeat center center/cover;
+}
+
+.section2 div {
+  flex: 1;
+}
+
+.list li {
+  border-bottom: 1px dotted #444;
+  padding: 1.5rem 0;
+}
+
+/*---------end section2----------*/
+
+/*---------start section3----------*/
+
+.section-div3 {
+  padding-left: 20rem;
+  padding: 0 20rem 4rem 25rem;
+}
+
+.section-div3 h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+.pictures {
+  padding-top: 3rem;
+}
+
+.pictures img {
+  width: 150px;
+  height: 150px;
+  /* object-fit: cover; */
+  border-radius: 50%;
+  margin-left: 4rem;
+}
+
+/*---------end section3----------*/
+
+/*---------start section4----------*/
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.form label {
+  display: block;
+  margin: 1rem 0;
+}
+
+.form-div {
+  flex-basis: 600px;
+}
+
+.form input,
+textarea {
+  width: 20rem;
+  padding: 0.5rem 0;
+}
+
+.submit {
+  background-color: orange;
+  color: white;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.submit:hover {
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+
+/*---------end section4----------*/
+
+/*---------start footer----------*/
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-div p {
+  margin-bottom: 1.5rem;
+}
+
+/*---------end footer----------*/
+
+/* @font-face {
+    font-family: "yekan";
+    src: url("fontfamily/Yekan.eot")format("eot");
+    src: url("fontfamily/Yekan.svg")format("svg");
+    src: url("fontfamily/Yekan.ttf")format("ttf");
+    src: url("fontfamily/Yekan.woff")format("woff");
+} */

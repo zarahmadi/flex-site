@@ -1,33 +1,175 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>javascript</title>
-
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:811px)" href="responsive/mobile.css" />
+    <!-- <link rel="stylesheet" media="screen and (min-width:1100px)" href="responsive/widescreen.css"> -->
+    <title>flex-site</title>
   </head>
-
+  
   <body>
-  
-  
-  <h1>megajs</h1>
-  
-  
-  
-  
-  
+    <!---------start navbar------------>
+
+    <nav class="navbar">
+      <h1>
+        <a href="#"> <span class="primary-color">WEBPROG</span>.ir </a>
+      </h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!----------end navbar----------->
+
+    <!----------start header----------->
+
+    <header id="header">
+      <div class="culumn-header">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure sint
+          commodi aliquid architecto natus consectetur eius soluta expedita
+          <br />
+          cum adipisci tempora, hic ratione, nostrum dolores quas quod delectus
+          beatae unde!
+        </p>
+        <a class="ifor-more" href="#">more</a>
+      </div>
+    </header>
+
+    <!----------end header----------->
+
+    <!----------start section1----------->
+
+    <section class="bg-light section1">
+      <div id="layer-div" class="max-width">
+        <h2 class="section-title">Lorem ipsum dolor sit.</h2>
+        <div class="items">
+          <div class="item item1">
+            <i class="fas fa-layer-group fa-2x"></i>
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+              eum dolores sunt dolorem rerum officiis error obcaecati natus
+              neque earum?
+            </p>
+          </div>
+          <div class="item item3">
+            <i class="fas fa-layer-group fa-2x"></i>
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+              eum dolores sunt dolorem rerum officiis error obcaecati natus
+              neque earum?
+            </p>
+          </div>
+          <div class="item item2">
+            <i class="fas fa-layer-group fa-2x"></i>
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+              eum dolores sunt dolorem rerum officiis error obcaecati natus
+              neque earum?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------end section1----------->
+
+    <!----------start section2----------->
+
+    <section class="section2 bg-light">
+      <div class="bg-dark section-div2">
+        <h1 class="fn-s2">Lorem ipsum dolor sit.</h1>
+        <p class="fn-s1">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
+          Natus porro doloremque id est inventore aperiam obcaecati <br />
+          consectetur molestiae quia voluptas.
+        </p>
+        <ul class="list">
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+      </div>
+      <div class="img-item"></div>
+    </section>
+
+    <!----------end section2----------->
+
+    <!----------start section3----------->
+
+    <section class="bg-light">
+      <div class="section-div3">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div class="pictures">
+          <img src="picture/girl1.jpg" alt="" />
+          <img src="picture/girl2.jpg" alt="" />
+          <img src="picture/girl1.jpg" alt="" />
+          <img src="picture/girl2.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!----------end section3----------->
+
+    <!----------start section4----------->
+
+    <section class="section4">
+      <div id="form-div">
+        <h1>Contact us</h1>
+        <form class="form" action="#">
+          <label for="">Name</label>
+          <input type="text" />
+          <br />
+          <label for="">Email</label>
+          <input type="email" />
+          <br />
+          <label for="">Phone number</label>
+          <input type="number" />
+          <br />
+          <label for="">Message</label>
+          <textarea name="" id="" cols="30" rows="1"></textarea>
+          <br />
+          <input class="submit" type="submit" value="send" />
+        </form>
+      </div>
+    </section>
+
+    <!----------end section4----------->
+
+    <!----------start footer----------->
+
+    <footer class="bg-dark">
+<div class="footer-div">
+  <div>
+    <p>copyright &#169 2019</p>
+  </div>
+  <div>
+    <i class="fab fa-instagram fa-1x"></i>
+    <i class="fab fa-telegram fa-1x"></i>
+    <i class="fab fa-twitter fa-1x"></i>
+    <i class="fab fa-youtube fa-1x"></i>
+  </div>
+</div>
+    </footer>
+
+    <!----------end footer----------->
+
     <script src="./index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
